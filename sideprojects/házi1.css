@@ -1,0 +1,62 @@
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+button {
+    background-color: #00ff00;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: #555555;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #b0cbf3
+}
+
+button:active {
+    background-color: #ff4221
+}
+
+input:focus {
+    background-color: #b0cbf3;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+}
+
+nav p {
+    font-family: arial;
+    color: #222;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul {
+    float: left;
+    padding: 15px 15px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 24px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+}

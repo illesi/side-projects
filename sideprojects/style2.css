@@ -1,0 +1,10 @@
+body {
+    min-height: 5000px;
+}
+
+.negyzet {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    left: 50px;
+}

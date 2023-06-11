@@ -1,0 +1,79 @@
+* {
+    /*
+        Az összes elem.
+    */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: greenyellow;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 2px solis black;
+    text-align: center;
+    display: inline-block;
+}
+
+button:focus {
+    background-color: red;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+button:active {
+    background-color: red;
+}
+
+input:focus {
+    background-color: aquamarine;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-stlye: none;
+    list-style-type: none;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+nav li:hover {
+    background-color:#184470;
+}
+
+nav ul ul {
+    background-color:#123456;
+    display:none;
+    position: absolute;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li li:hover ul {
+    display:block;
+    left:100%;
+    top:0;
+}
+
+nav ul ul ul {
+    background-color:#2568ab;
+}
+
+
+

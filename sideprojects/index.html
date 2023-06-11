@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pozícionálás</h1>
+    <h2>Static</h2>
+    <p>
+        A static az alapértelmezett pozíció, amihez képest a többi pozícionálás 
+        meghatározza önmagát. <br>
+        A static pozicíó esetében nem működnek a left, right, top, bottom tulajdonságok.
+    </p>
+    <div class="static-square"></div>
+
+    <h2>Relative</h2>
+    <p>
+        A relative pozíció a static-hez képest határozza meg magát.
+    </p>
+    <div class="relative-square"></div>
+    <div class="relative-square"></div>
+
+    <h2>Absolute pozíció</h2>
+    <p>
+        Az absolute pozíció rendelkezik egy olyan tulajdonsággal, hogy 
+        már elemek fölé/alá tudja helyezni önmagát.
+    </p>
+    <div class="invisible-square">
+        <div class="absolute-square"></div>
+        <div class="absolute-square red-background" style="left:80px;"></div>
+    </div>
+
+    <div class="clear"></div>
+    
+    <h2>Fixed pozíció</h2>
+    <p>
+        A fixed pozíció is képes a többi elem fölé/alá elhelyezni magát, de 
+        a fixed pozícióval ellátott tag mindig a képernyő ugyanazon pontján marad.
+    </p>
+
+    <div class="fixed-square"></div>
+
+    <h3>Sticky</h3>
+    <p>
+        A sticky pozíció, amíg a böngészőablak teteje és a sticky tag 
+        teteje közötti távolság nem lesz egy bizonyos érték, addig 
+        a sticky úgy viselkedik, mint a relative, utána pedig mint a fixed.
+        (top tulajdonság értéke)
+    </p>
+    <div class="sticky-square"></div>
+
+    <h2>Pozíciók egymáshoz képest</h2>
+
+    <div class="relative-square">
+        <div class="min-absolute-square"></div>
+    </div>
+
+    <h2>Z-index, z-tengely magasság</h2>
+    <p>
+        A <b>z-index</b> a z-tengelyen lévő sorrendiséget határozza meg. 
+        Ez lehet negatív és pozitív érték is, és nulla is. <br>
+        A nulla az alapértelmezett.
+    </p>
+    <div class="z-index-square khaki"></div>
+    <div class="z-index-square purple" style="left:100px;"></div>
+    <div class="z-index-square yellowgreen" style="left:200px;"></div>
+</body>
+</html>
